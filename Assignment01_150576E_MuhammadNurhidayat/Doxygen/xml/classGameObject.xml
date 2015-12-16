@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classGameObject" kind="class" language="C++" prot="public">
+    <compoundname>GameObject</compoundname>
+    <derivedcompoundref refid="classDweller" prot="public" virt="non-virtual">Dweller</derivedcompoundref>
+    <derivedcompoundref refid="classItem" prot="public" virt="non-virtual">Item</derivedcompoundref>
+    <includes refid="GameObject_8h" local="no">GameObject.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGameObject_1a0ad0444789c3bc946375733544b0c467" prot="private" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string GameObject::kName</definition>
+        <argsstring></argsstring>
+        <name>kName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/GameObject.h" line="22" column="1" bodyfile="Assignment01Data/GameObject.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classGameObject_1a7a7cc496716e8c8453bd0bb954f2a7ee" compoundref="GameObject_8cpp" startline="53" endline="56">getName</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GameObject::count_</definition>
+        <argsstring></argsstring>
+        <name>count_</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/GameObject.h" line="23" column="1" bodyfile="Assignment01Data/GameObject.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classGameObject_1afb254416bace15f7ff1cd238032b7420" compoundref="GameObject_8cpp" startline="18" endline="22">GameObject</referencedby>
+        <referencedby refid="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" compoundref="GameObject_8cpp" startline="70" endline="73">getCount</referencedby>
+        <referencedby refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" compoundref="GameObject_8cpp" startline="36" endline="39">~GameObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classGameObject_1afb254416bace15f7ff1cd238032b7420" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GameObject::GameObject</definition>
+        <argsstring>(const std::string &amp;)</argsstring>
+        <name>GameObject</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+<para>Initialises <ref refid="classGameObject" kindref="compound">GameObject</ref> with name and adds count_. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/GameObject.h" line="26" column="1" bodyfile="Assignment01Data/GameObject.cpp" bodystart="18" bodyend="22"/>
+        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="23">count_</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>GameObject::~GameObject</definition>
+        <argsstring>()</argsstring>
+        <name>~GameObject</name>
+        <briefdescription>
+<para>Count is decremented when delete is called. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/GameObject.h" line="29" column="1" bodyfile="Assignment01Data/GameObject.cpp" bodystart="36" bodyend="39"/>
+        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="23">count_</references>
+      </memberdef>
+      <memberdef kind="function" id="classGameObject_1a7a7cc496716e8c8453bd0bb954f2a7ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string GameObject::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Returns name of <ref refid="classGameObject" kindref="compound">GameObject</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/GameObject.h" line="31" column="1" bodyfile="Assignment01Data/GameObject.cpp" bodystart="53" bodyend="56"/>
+        <references refid="classGameObject_1a0ad0444789c3bc946375733544b0c467" compoundref="GameObject_8h" startline="22">kName</references>
+        <referencedby refid="classDweller_1aac585b73527e14417f81b52b06282abd" compoundref="Dweller_8cpp" startline="322" endline="334">Dweller::assignOutfit</referencedby>
+        <referencedby refid="classDweller_1ada9dea393dfde4052cfff6a43acc37bb" compoundref="Dweller_8cpp" startline="348" endline="360">Dweller::assignWeapon</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GameObject::getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+<para>Returns count_. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/GameObject.h" line="32" column="1" bodyfile="Assignment01Data/GameObject.cpp" bodystart="70" bodyend="73"/>
+        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="23">count_</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This <ref refid="classGameObject" kindref="compound">GameObject</ref> is the base class or parent of classes <ref refid="classDweller" kindref="compound">Dweller</ref> and <ref refid="classItem" kindref="compound">Item</ref>. <ref refid="classGameObject" kindref="compound">GameObject</ref> is also used to initialised Names of <ref refid="classDweller" kindref="compound">Dweller</ref> and <ref refid="classItem" kindref="compound">Item</ref>. <ref refid="classGameObject" kindref="compound">GameObject</ref> is also used to count_ the number of objects initialised. </para>    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="classGameObject" kindref="compound">GameObject</ref>: </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>Dweller</label>
+        <link refid="classDweller"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>Item</label>
+        <link refid="classItem"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Outfit</label>
+        <link refid="classOutfit"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>Weapon</label>
+        <link refid="classWeapon"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="64">
+        <label>string</label>
+      </node>
+      <node id="63">
+        <label>int</label>
+      </node>
+      <node id="62">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>count_</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>kName</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment01Data/GameObject.h" line="20" column="1" bodyfile="Assignment01Data/GameObject.h" bodystart="19" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" prot="private" virt="non-virtual"><scope>GameObject</scope><name>count_</name></member>
+      <member refid="classGameObject_1afb254416bace15f7ff1cd238032b7420" prot="protected" virt="non-virtual"><scope>GameObject</scope><name>GameObject</name></member>
+      <member refid="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" prot="public" virt="non-virtual"><scope>GameObject</scope><name>getCount</name></member>
+      <member refid="classGameObject_1a7a7cc496716e8c8453bd0bb954f2a7ee" prot="public" virt="non-virtual"><scope>GameObject</scope><name>getName</name></member>
+      <member refid="classGameObject_1a0ad0444789c3bc946375733544b0c467" prot="private" virt="non-virtual"><scope>GameObject</scope><name>kName</name></member>
+      <member refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" prot="public" virt="virtual"><scope>GameObject</scope><name>~GameObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

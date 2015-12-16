@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classOutfit" kind="class" language="C++" prot="public">
+    <compoundname>Outfit</compoundname>
+    <basecompoundref refid="classItem" prot="public" virt="non-virtual">Item</basecompoundref>
+    <includes refid="Outfit_8h" local="no">Outfit.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Outfit::kSPECIAL</definition>
+        <argsstring></argsstring>
+        <name>kSPECIAL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Outfit.h" line="23" column="1" bodyfile="Assignment01Data/Outfit.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" compoundref="Outfit_8cpp" startline="66" endline="69">getSPECIAL</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOutfit_1ac55818aeb7930bd46aa3349cb2c135e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Outfit::Outfit</definition>
+        <argsstring>(const std::string &amp;, const int &amp;, const int &amp;)</argsstring>
+        <name>Outfit</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <defname>durability</defname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <defname>SPECIAL</defname>
+        </param>
+        <briefdescription>
+<para>This constructor initialises the name, durability and SPECIAL of outfit. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Outfit.h" line="26" column="1" bodyfile="Assignment01Data/Outfit.cpp" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutfit_1a1960e26664a0f6c991c98950e53e0b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Outfit::~Outfit</definition>
+        <argsstring>()</argsstring>
+        <name>~Outfit</name>
+        <briefdescription>
+<para><ref refid="classOutfit" kindref="compound">Outfit</ref> Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Outfit.h" line="27" column="1" bodyfile="Assignment01Data/Outfit.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classOutfit_1a757380dfe425a928d6a1397d8b960956" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Outfit::receiveDamage</definition>
+        <argsstring>(const int &amp;)</argsstring>
+        <name>receiveDamage</name>
+        <reimplements refid="classItem_1af07624523911254b4fad62612a2c2e8e">receiveDamage</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <defname>dmg</defname>
+        </param>
+        <briefdescription>
+<para>Calculates durability_ when <ref refid="classDweller" kindref="compound">Dweller</ref> sustains damage. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Outfit.h" line="29" column="1" bodyfile="Assignment01Data/Outfit.cpp" bodystart="49" bodyend="52"/>
+        <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="23">Item::durability_</references>
+        <referencedby refid="classDweller_1a89b0288282e0ee80ecf36683ca4386d9" compoundref="Dweller_8cpp" startline="224" endline="230">Dweller::receiveEquipmentDamage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const int</type>
+        <definition>const int Outfit::getSPECIAL</definition>
+        <argsstring>()</argsstring>
+        <name>getSPECIAL</name>
+        <briefdescription>
+<para>Returns kSPECIAL of <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Outfit.h" line="30" column="1" bodyfile="Assignment01Data/Outfit.cpp" bodystart="66" bodyend="69"/>
+        <references refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" compoundref="Outfit_8h" startline="23">kSPECIAL</references>
+        <referencedby refid="classDweller_1aac585b73527e14417f81b52b06282abd" compoundref="Dweller_8cpp" startline="322" endline="334">Dweller::assignOutfit</referencedby>
+        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="52" endline="86">Dweller::getSPECIAL</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classOutfit" kindref="compound">Outfit</ref> is an inheritance to <ref refid="classItem" kindref="compound">Item</ref>. <ref refid="classOutfit" kindref="compound">Outfit</ref> is initialised by using <ref refid="classItem" kindref="compound">Item</ref>&apos;s constructor. <ref refid="classOutfit" kindref="compound">Outfit</ref> adds to <ref refid="classDweller" kindref="compound">Dweller</ref>&apos;s SPECIAL when assigned and has more than 0 durability. </para>    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="classOutfit" kindref="compound">Outfit</ref>: </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="74">
+        <label>Item</label>
+        <link refid="classItem"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Outfit</label>
+        <link refid="classOutfit"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="80">
+        <label>string</label>
+      </node>
+      <node id="77">
+        <label>Item</label>
+        <link refid="classItem"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="79" relation="usage">
+          <edgelabel>durability_</edgelabel>
+        </childnode>
+      </node>
+      <node id="76">
+        <label>Outfit</label>
+        <link refid="classOutfit"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="79" relation="usage">
+          <edgelabel>kSPECIAL</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>int</label>
+      </node>
+      <node id="78">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+        <childnode refid="79" relation="usage">
+          <edgelabel>count_</edgelabel>
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>kName</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment01Data/Outfit.h" line="21" column="1" bodyfile="Assignment01Data/Outfit.h" bodystart="20" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classItem_1aa565c4091f6ac0634d762fb250128cee" prot="protected" virt="non-virtual"><scope>Outfit</scope><name>durability_</name></member>
+      <member refid="classGameObject_1afb254416bace15f7ff1cd238032b7420" prot="protected" virt="non-virtual"><scope>Outfit</scope><name>GameObject</name></member>
+      <member refid="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" prot="public" virt="non-virtual"><scope>Outfit</scope><name>getCount</name></member>
+      <member refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" prot="public" virt="non-virtual"><scope>Outfit</scope><name>getDurability</name></member>
+      <member refid="classGameObject_1a7a7cc496716e8c8453bd0bb954f2a7ee" prot="public" virt="non-virtual"><scope>Outfit</scope><name>getName</name></member>
+      <member refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" prot="public" virt="non-virtual"><scope>Outfit</scope><name>getSPECIAL</name></member>
+      <member refid="classItem_1a4bfd4b7d49567a62c649dd8e92f23ca1" prot="public" virt="non-virtual"><scope>Outfit</scope><name>Item</name></member>
+      <member refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" prot="private" virt="non-virtual"><scope>Outfit</scope><name>kSPECIAL</name></member>
+      <member refid="classOutfit_1ac55818aeb7930bd46aa3349cb2c135e5" prot="public" virt="non-virtual"><scope>Outfit</scope><name>Outfit</name></member>
+      <member refid="classOutfit_1a757380dfe425a928d6a1397d8b960956" prot="public" virt="virtual"><scope>Outfit</scope><name>receiveDamage</name></member>
+      <member refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" prot="public" virt="virtual"><scope>Outfit</scope><name>~GameObject</name></member>
+      <member refid="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" prot="public" virt="virtual"><scope>Outfit</scope><name>~Item</name></member>
+      <member refid="classOutfit_1a1960e26664a0f6c991c98950e53e0b47" prot="public" virt="virtual"><scope>Outfit</scope><name>~Outfit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

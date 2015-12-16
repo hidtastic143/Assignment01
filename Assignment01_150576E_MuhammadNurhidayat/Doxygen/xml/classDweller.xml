@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classDweller" kind="class" language="C++" prot="public">
+    <compoundname>Dweller</compoundname>
+    <basecompoundref refid="classGameObject" prot="public" virt="non-virtual">GameObject</basecompoundref>
+    <includes refid="Dweller_8h" local="no">Dweller.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDweller_1ad769b02386e2060776276f64194811a2" prot="private" static="no" mutable="no">
+        <type><ref refid="structVec2D" kindref="compound">Vec2D</ref></type>
+        <definition>Vec2D Dweller::position_</definition>
+        <argsstring></argsstring>
+        <name>position_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="26" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" compoundref="Dweller_8cpp" startline="173" endline="176">getPosition</referencedby>
+        <referencedby refid="classDweller_1a4999597d6cfe8552d92c043fd01d38d0" compoundref="Dweller_8cpp" startline="155" endline="159">setPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDweller_1adddef783da3277fdee6c05c9b7c40742" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Dweller::SPECIAL_</definition>
+        <argsstring></argsstring>
+        <name>SPECIAL_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="27" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="52" endline="86">getSPECIAL</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDweller_1aff75dc01658d330e51043b86c8ec3e21" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Dweller::health_</definition>
+        <argsstring></argsstring>
+        <name>health_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="28" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classDweller_1af4683a57d847666230c652174721da72" compoundref="Dweller_8cpp" startline="100" endline="103">getCurrentHealth</referencedby>
+        <referencedby refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" compoundref="Dweller_8cpp" startline="365" endline="372">isDead</referencedby>
+        <referencedby refid="classDweller_1abf9520f7fa4de6e1bc15343a2c9a2566" compoundref="Dweller_8cpp" startline="190" endline="193">receiveHealthDamage</referencedby>
+        <referencedby refid="classDweller_1a3546d82f9e018774b3e2ed0cf20a75e7" compoundref="Dweller_8cpp" startline="207" endline="210">receiveRadDamage</referencedby>
+        <referencedby refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" compoundref="Dweller_8cpp" startline="278" endline="287">useStimpak</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDweller_1a82ec290d32407101daa1ce99f951f1c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Dweller::radiation_</definition>
+        <argsstring></argsstring>
+        <name>radiation_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="29" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" compoundref="Dweller_8cpp" startline="117" endline="120">getCurrentRadDamage</referencedby>
+        <referencedby refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" compoundref="Dweller_8cpp" startline="301" endline="308">useRadAway</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDweller_1a6222543be35513cc47fada0a5bf3547b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Dweller::stimpak_</definition>
+        <argsstring></argsstring>
+        <name>stimpak_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="30" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classDweller_1ad52bcb0cf23351d0aacb5d0458cd081b" compoundref="Dweller_8cpp" startline="244" endline="247">addStimpak</referencedby>
+        <referencedby refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" compoundref="Dweller_8cpp" startline="278" endline="287">useStimpak</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDweller_1ad906d73273266b219b7efa2241720601" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Dweller::radaway_</definition>
+        <argsstring></argsstring>
+        <name>radaway_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="31" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classDweller_1a913253a2a69aa4076b808556fcc59ef7" compoundref="Dweller_8cpp" startline="261" endline="264">addRadAway</referencedby>
+        <referencedby refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" compoundref="Dweller_8cpp" startline="301" endline="308">useRadAway</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" prot="private" static="no" mutable="no">
+        <type><ref refid="classOutfit" kindref="compound">Outfit</ref> *</type>
+        <definition>Outfit* Dweller::outfit_</definition>
+        <argsstring></argsstring>
+        <name>outfit_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="32" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classDweller_1aac585b73527e14417f81b52b06282abd" compoundref="Dweller_8cpp" startline="322" endline="334">assignOutfit</referencedby>
+        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="52" endline="86">getSPECIAL</referencedby>
+        <referencedby refid="classDweller_1a89b0288282e0ee80ecf36683ca4386d9" compoundref="Dweller_8cpp" startline="224" endline="230">receiveEquipmentDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" prot="private" static="no" mutable="no">
+        <type><ref refid="classWeapon" kindref="compound">Weapon</ref> *</type>
+        <definition>Weapon* Dweller::weapon_</definition>
+        <argsstring></argsstring>
+        <name>weapon_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="33" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classDweller_1ada9dea393dfde4052cfff6a43acc37bb" compoundref="Dweller_8cpp" startline="348" endline="360">assignWeapon</referencedby>
+        <referencedby refid="classDweller_1a7bb025bd8237c76efc510c603334906f" compoundref="Dweller_8cpp" startline="134" endline="141">getAttackDmg</referencedby>
+        <referencedby refid="classDweller_1a89b0288282e0ee80ecf36683ca4386d9" compoundref="Dweller_8cpp" startline="224" endline="230">receiveEquipmentDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDweller_1a82370dac6c2ed40eaae2c55b4294955c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Dweller::Dweller</definition>
+        <argsstring>(const std::string &amp;, const int &amp;)</argsstring>
+        <name>Dweller</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <defname>special</defname>
+        </param>
+        <briefdescription>
+<para>This constructor initialises the private members the <ref refid="classDweller" kindref="compound">Dweller</ref> have. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>const</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string&amp; name, const int&amp; special</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="36" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a2499017d809b7b72f1647eafc0107f1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Dweller::~Dweller</definition>
+        <argsstring>()</argsstring>
+        <name>~Dweller</name>
+        <briefdescription>
+<para><ref refid="classDweller" kindref="compound">Dweller</ref> Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="37" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const int</type>
+        <definition>const int Dweller::getSPECIAL</definition>
+        <argsstring>()</argsstring>
+        <name>getSPECIAL</name>
+        <briefdescription>
+<para>Returns SPECIAL_ or newSpecial depending if <ref refid="classOutfit" kindref="compound">Outfit</ref> is assigned to <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="39" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="52" bodyend="86"/>
+        <references refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" compoundref="Item_8cpp" startline="50" endline="53">Item::getDurability</references>
+        <references refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" compoundref="Outfit_8cpp" startline="66" endline="69">Outfit::getSPECIAL</references>
+        <references refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" compoundref="Dweller_8h" startline="32">outfit_</references>
+        <references refid="classDweller_1adddef783da3277fdee6c05c9b7c40742" compoundref="Dweller_8h" startline="27">SPECIAL_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1af4683a57d847666230c652174721da72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const int</type>
+        <definition>const int Dweller::getCurrentHealth</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentHealth</name>
+        <briefdescription>
+<para>Returns current health of <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="40" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="100" bodyend="103"/>
+        <references refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" compoundref="Dweller_8h" startline="28">health_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const int</type>
+        <definition>const int Dweller::getCurrentRadDamage</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentRadDamage</name>
+        <briefdescription>
+<para>This function will return the amount of Radiation the <ref refid="classDweller" kindref="compound">Dweller</ref> has attained. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="41" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="117" bodyend="120"/>
+        <references refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" compoundref="Dweller_8h" startline="29">radiation_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a7bb025bd8237c76efc510c603334906f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const int</type>
+        <definition>const int Dweller::getAttackDmg</definition>
+        <argsstring>()</argsstring>
+        <name>getAttackDmg</name>
+        <briefdescription>
+<para>Returns 1 or <ref refid="classWeapon" kindref="compound">Weapon</ref>&apos;s damaged if assigned to <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="42" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="134" bodyend="141"/>
+        <references refid="classWeapon_1aa68d843906315f5f97f85d464c865aef" compoundref="Weapon_8cpp" startline="65" endline="68">Weapon::getAttackDmg</references>
+        <references refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" compoundref="Item_8cpp" startline="50" endline="53">Item::getDurability</references>
+        <references refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" compoundref="Dweller_8h" startline="33">weapon_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a4999597d6cfe8552d92c043fd01d38d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::setPosition</definition>
+        <argsstring>(const Vec2D &amp;)</argsstring>
+        <name>setPosition</name>
+        <param>
+          <type>const <ref refid="structVec2D" kindref="compound">Vec2D</ref> &amp;</type>
+          <defname>position</defname>
+        </param>
+        <briefdescription>
+<para>Sets position of <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="43" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="155" bodyend="159"/>
+        <references refid="classDweller_1ad769b02386e2060776276f64194811a2" compoundref="Dweller_8h" startline="26">position_</references>
+        <references refid="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" compoundref="Vec2D_8h" startline="20">Vec2D::x</references>
+        <references refid="structVec2D_1ace79aa38b9f696905862d607f338b845" compoundref="Vec2D_8h" startline="21">Vec2D::y</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structVec2D" kindref="compound">Vec2D</ref></type>
+        <definition>const Vec2D Dweller::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <briefdescription>
+<para>Returns position of <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="44" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="173" bodyend="176"/>
+        <references refid="classDweller_1ad769b02386e2060776276f64194811a2" compoundref="Dweller_8h" startline="26">position_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1abf9520f7fa4de6e1bc15343a2c9a2566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::receiveHealthDamage</definition>
+        <argsstring>(const int &amp;)</argsstring>
+        <name>receiveHealthDamage</name>
+        <param>
+          <type>const int &amp;</type>
+          <defname>dmg</defname>
+        </param>
+        <briefdescription>
+<para>This function calculates the health_ of <ref refid="classDweller" kindref="compound">Dweller</ref> after sustaining damage. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="45" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="190" bodyend="193"/>
+        <references refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" compoundref="Dweller_8h" startline="28">health_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a3546d82f9e018774b3e2ed0cf20a75e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::receiveRadDamage</definition>
+        <argsstring>(const int &amp;)</argsstring>
+        <name>receiveRadDamage</name>
+        <param>
+          <type>const int &amp;</type>
+          <defname>radDmg</defname>
+        </param>
+        <briefdescription>
+<para>This function calculates the health_ of <ref refid="classDweller" kindref="compound">Dweller</ref> after sustaining radiation damage. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="46" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="207" bodyend="210"/>
+        <references refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" compoundref="Dweller_8h" startline="28">health_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a89b0288282e0ee80ecf36683ca4386d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::receiveEquipmentDamage</definition>
+        <argsstring>(const int &amp;)</argsstring>
+        <name>receiveEquipmentDamage</name>
+        <param>
+          <type>const int &amp;</type>
+          <defname>equipDmg</defname>
+        </param>
+        <briefdescription>
+<para>This function will point to receiveDamage() if there are Items assigned to <ref refid="classDweller" kindref="compound">Dweller</ref> and <ref refid="classDweller" kindref="compound">Dweller</ref> receive damage. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="47" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="224" bodyend="230"/>
+        <references refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" compoundref="Dweller_8h" startline="32">outfit_</references>
+        <references refid="classWeapon_1a177eb2a97f4a93b04a18a83405871d43" compoundref="Weapon_8cpp" startline="48" endline="51">Weapon::receiveDamage</references>
+        <references refid="classOutfit_1a757380dfe425a928d6a1397d8b960956" compoundref="Outfit_8cpp" startline="49" endline="52">Outfit::receiveDamage</references>
+        <references refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" compoundref="Dweller_8h" startline="33">weapon_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1ad52bcb0cf23351d0aacb5d0458cd081b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::addStimpak</definition>
+        <argsstring>(const int &amp;)</argsstring>
+        <name>addStimpak</name>
+        <param>
+          <type>const int &amp;</type>
+          <defname>stimpak</defname>
+        </param>
+        <briefdescription>
+<para>Calculates the number of stimpak the <ref refid="classDweller" kindref="compound">Dweller</ref> has after adding Stimpak. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="48" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="244" bodyend="247"/>
+        <references refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" compoundref="Dweller_8h" startline="30">stimpak_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a913253a2a69aa4076b808556fcc59ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::addRadAway</definition>
+        <argsstring>(const int &amp;)</argsstring>
+        <name>addRadAway</name>
+        <param>
+          <type>const int &amp;</type>
+          <defname>radaway</defname>
+        </param>
+        <briefdescription>
+<para>Calculates the number of radAway <ref refid="classDweller" kindref="compound">Dweller</ref> has after adding. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="49" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="261" bodyend="264"/>
+        <references refid="classDweller_1ad906d73273266b219b7efa2241720601" compoundref="Dweller_8h" startline="31">radaway_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a141c51a497020e45f3d1bf61c6f50167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::useStimpak</definition>
+        <argsstring>()</argsstring>
+        <name>useStimpak</name>
+        <briefdescription>
+<para>Calculates the health after stimpak is used and takes away one stimpak. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="50" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="278" bodyend="287"/>
+        <references refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" compoundref="Dweller_8h" startline="28">health_</references>
+        <references refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" compoundref="Dweller_8h" startline="30">stimpak_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1ad76a3cd483840971553a615ceba34b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dweller::useRadAway</definition>
+        <argsstring>()</argsstring>
+        <name>useRadAway</name>
+        <briefdescription>
+<para>This function calculates the radiation and removes one radaway after radaway is used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="51" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="301" bodyend="308"/>
+        <references refid="classDweller_1ad906d73273266b219b7efa2241720601" compoundref="Dweller_8h" startline="31">radaway_</references>
+        <references refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" compoundref="Dweller_8h" startline="29">radiation_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1aac585b73527e14417f81b52b06282abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classOutfit" kindref="compound">Outfit</ref> *</type>
+        <definition>Outfit * Dweller::assignOutfit</definition>
+        <argsstring>(Outfit *)</argsstring>
+        <name>assignOutfit</name>
+        <param>
+          <type><ref refid="classOutfit" kindref="compound">Outfit</ref> *</type>
+          <defname>outfit</defname>
+        </param>
+        <briefdescription>
+<para>Assigns an <ref refid="classOutfit" kindref="compound">Outfit</ref> to a <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="52" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="322" bodyend="334"/>
+        <references refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" compoundref="Item_8cpp" startline="50" endline="53">Item::getDurability</references>
+        <references refid="classGameObject_1a7a7cc496716e8c8453bd0bb954f2a7ee" compoundref="GameObject_8cpp" startline="53" endline="56">GameObject::getName</references>
+        <references refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" compoundref="Outfit_8cpp" startline="66" endline="69">Outfit::getSPECIAL</references>
+        <references refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" compoundref="Dweller_8h" startline="32">outfit_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1ada9dea393dfde4052cfff6a43acc37bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classWeapon" kindref="compound">Weapon</ref> *</type>
+        <definition>Weapon * Dweller::assignWeapon</definition>
+        <argsstring>(Weapon *)</argsstring>
+        <name>assignWeapon</name>
+        <param>
+          <type><ref refid="classWeapon" kindref="compound">Weapon</ref> *</type>
+          <defname>weapon</defname>
+        </param>
+        <briefdescription>
+<para>Assigns <ref refid="classWeapon" kindref="compound">Weapon</ref> to <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="53" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="348" bodyend="360"/>
+        <references refid="classWeapon_1aa68d843906315f5f97f85d464c865aef" compoundref="Weapon_8cpp" startline="65" endline="68">Weapon::getAttackDmg</references>
+        <references refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" compoundref="Item_8cpp" startline="50" endline="53">Item::getDurability</references>
+        <references refid="classGameObject_1a7a7cc496716e8c8453bd0bb954f2a7ee" compoundref="GameObject_8cpp" startline="53" endline="56">GameObject::getName</references>
+        <references refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" compoundref="Dweller_8h" startline="33">weapon_</references>
+      </memberdef>
+      <memberdef kind="function" id="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Dweller::isDead</definition>
+        <argsstring>()</argsstring>
+        <name>isDead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Dweller.h" line="54" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="365" bodyend="372"/>
+        <references refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" compoundref="Dweller_8h" startline="28">health_</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classDweller" kindref="compound">Dweller</ref>, an inheritance to <ref refid="classGameObject" kindref="compound">GameObject</ref>. It will initialise all it&apos;s private members with its constructor. </para>    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="classDweller" kindref="compound">Dweller</ref>: </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>Dweller</label>
+        <link refid="classDweller"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="51">
+        <label>string</label>
+      </node>
+      <node id="48">
+        <label>Dweller</label>
+        <link refid="classDweller"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>position_</edgelabel>
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>outfit_</edgelabel>
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>radiation_</edgelabel>
+          <edgelabel>health_</edgelabel>
+          <edgelabel>SPECIAL_</edgelabel>
+          <edgelabel>stimpak_</edgelabel>
+          <edgelabel>radaway_</edgelabel>
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>weapon_</edgelabel>
+        </childnode>
+      </node>
+      <node id="55">
+        <label>Item</label>
+        <link refid="classItem"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>durability_</edgelabel>
+        </childnode>
+      </node>
+      <node id="54">
+        <label>Outfit</label>
+        <link refid="classOutfit"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>kSPECIAL</edgelabel>
+        </childnode>
+      </node>
+      <node id="50">
+        <label>int</label>
+      </node>
+      <node id="53">
+        <label>double</label>
+      </node>
+      <node id="56">
+        <label>Weapon</label>
+        <link refid="classWeapon"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>kAttackDmg</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>Vec2D</label>
+        <link refid="structVec2D"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+      <node id="49">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>count_</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>kName</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment01Data/Dweller.h" line="24" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="23" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classDweller_1a913253a2a69aa4076b808556fcc59ef7" prot="public" virt="non-virtual"><scope>Dweller</scope><name>addRadAway</name></member>
+      <member refid="classDweller_1ad52bcb0cf23351d0aacb5d0458cd081b" prot="public" virt="non-virtual"><scope>Dweller</scope><name>addStimpak</name></member>
+      <member refid="classDweller_1aac585b73527e14417f81b52b06282abd" prot="public" virt="non-virtual"><scope>Dweller</scope><name>assignOutfit</name></member>
+      <member refid="classDweller_1ada9dea393dfde4052cfff6a43acc37bb" prot="public" virt="non-virtual"><scope>Dweller</scope><name>assignWeapon</name></member>
+      <member refid="classDweller_1a82370dac6c2ed40eaae2c55b4294955c" prot="public" virt="non-virtual"><scope>Dweller</scope><name>Dweller</name></member>
+      <member refid="classGameObject_1afb254416bace15f7ff1cd238032b7420" prot="protected" virt="non-virtual"><scope>Dweller</scope><name>GameObject</name></member>
+      <member refid="classDweller_1a7bb025bd8237c76efc510c603334906f" prot="public" virt="non-virtual"><scope>Dweller</scope><name>getAttackDmg</name></member>
+      <member refid="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" prot="public" virt="non-virtual"><scope>Dweller</scope><name>getCount</name></member>
+      <member refid="classDweller_1af4683a57d847666230c652174721da72" prot="public" virt="non-virtual"><scope>Dweller</scope><name>getCurrentHealth</name></member>
+      <member refid="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" prot="public" virt="non-virtual"><scope>Dweller</scope><name>getCurrentRadDamage</name></member>
+      <member refid="classGameObject_1a7a7cc496716e8c8453bd0bb954f2a7ee" prot="public" virt="non-virtual"><scope>Dweller</scope><name>getName</name></member>
+      <member refid="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" prot="public" virt="non-virtual"><scope>Dweller</scope><name>getPosition</name></member>
+      <member refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" prot="public" virt="non-virtual"><scope>Dweller</scope><name>getSPECIAL</name></member>
+      <member refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" prot="private" virt="non-virtual"><scope>Dweller</scope><name>health_</name></member>
+      <member refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" prot="public" virt="non-virtual"><scope>Dweller</scope><name>isDead</name></member>
+      <member refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" prot="private" virt="non-virtual"><scope>Dweller</scope><name>outfit_</name></member>
+      <member refid="classDweller_1ad769b02386e2060776276f64194811a2" prot="private" virt="non-virtual"><scope>Dweller</scope><name>position_</name></member>
+      <member refid="classDweller_1ad906d73273266b219b7efa2241720601" prot="private" virt="non-virtual"><scope>Dweller</scope><name>radaway_</name></member>
+      <member refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" prot="private" virt="non-virtual"><scope>Dweller</scope><name>radiation_</name></member>
+      <member refid="classDweller_1a89b0288282e0ee80ecf36683ca4386d9" prot="public" virt="non-virtual"><scope>Dweller</scope><name>receiveEquipmentDamage</name></member>
+      <member refid="classDweller_1abf9520f7fa4de6e1bc15343a2c9a2566" prot="public" virt="non-virtual"><scope>Dweller</scope><name>receiveHealthDamage</name></member>
+      <member refid="classDweller_1a3546d82f9e018774b3e2ed0cf20a75e7" prot="public" virt="non-virtual"><scope>Dweller</scope><name>receiveRadDamage</name></member>
+      <member refid="classDweller_1a4999597d6cfe8552d92c043fd01d38d0" prot="public" virt="non-virtual"><scope>Dweller</scope><name>setPosition</name></member>
+      <member refid="classDweller_1adddef783da3277fdee6c05c9b7c40742" prot="private" virt="non-virtual"><scope>Dweller</scope><name>SPECIAL_</name></member>
+      <member refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" prot="private" virt="non-virtual"><scope>Dweller</scope><name>stimpak_</name></member>
+      <member refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" prot="public" virt="non-virtual"><scope>Dweller</scope><name>useRadAway</name></member>
+      <member refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" prot="public" virt="non-virtual"><scope>Dweller</scope><name>useStimpak</name></member>
+      <member refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" prot="private" virt="non-virtual"><scope>Dweller</scope><name>weapon_</name></member>
+      <member refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" prot="public" virt="virtual"><scope>Dweller</scope><name>~Dweller</name></member>
+      <member refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" prot="public" virt="virtual"><scope>Dweller</scope><name>~GameObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

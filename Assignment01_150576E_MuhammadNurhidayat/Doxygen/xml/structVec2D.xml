@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="structVec2D" kind="struct" language="C++" prot="public">
+    <compoundname>Vec2D</compoundname>
+    <includes refid="Vec2D_8h" local="no">Vec2D.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vec2D::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Vec2D.h" line="20" column="1" bodyfile="Assignment01Data/Vec2D.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classDweller_1a4999597d6cfe8552d92c043fd01d38d0" compoundref="Dweller_8cpp" startline="155" endline="159">Dweller::setPosition</referencedby>
+        <referencedby refid="structVec2D_1aa3e3abb842bff81c10e8539c1689d578" compoundref="Vec2D_8cpp" startline="15" endline="19">Vec2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structVec2D_1ace79aa38b9f696905862d607f338b845" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vec2D::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Vec2D.h" line="21" column="1" bodyfile="Assignment01Data/Vec2D.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classDweller_1a4999597d6cfe8552d92c043fd01d38d0" compoundref="Dweller_8cpp" startline="155" endline="159">Dweller::setPosition</referencedby>
+        <referencedby refid="structVec2D_1aa3e3abb842bff81c10e8539c1689d578" compoundref="Vec2D_8cpp" startline="15" endline="19">Vec2D</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structVec2D_1aa3e3abb842bff81c10e8539c1689d578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec2D::Vec2D</definition>
+        <argsstring>()</argsstring>
+        <name>Vec2D</name>
+        <briefdescription>
+<para>This is default coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Vec2D.h" line="23" column="1" bodyfile="Assignment01Data/Vec2D.cpp" bodystart="15" bodyend="19"/>
+        <references refid="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" compoundref="Vec2D_8h" startline="20">x</references>
+        <references refid="structVec2D_1ace79aa38b9f696905862d607f338b845" compoundref="Vec2D_8h" startline="21">y</references>
+      </memberdef>
+      <memberdef kind="function" id="structVec2D_1a7b7e1d9c94888dabaed54e798cd3ac45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec2D::Vec2D</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>Vec2D</name>
+        <param>
+          <type>double</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+<para>This function sets the coordinates of <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01Data/Vec2D.h" line="24" column="1" bodyfile="Assignment01Data/Vec2D.cpp" bodystart="33" bodyend="37"/>
+        <references refid="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" compoundref="Vec2D_8h" startline="20">x</references>
+        <references refid="structVec2D_1ace79aa38b9f696905862d607f338b845" compoundref="Vec2D_8h" startline="21">y</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structVec2D" kindref="compound">Vec2D</ref> is a struct that takes in position of the <ref refid="classDweller" kindref="compound">Dweller</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Struct <ref refid="structVec2D" kindref="compound">Vec2D</ref>: </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="83">
+        <label>double</label>
+      </node>
+      <node id="82">
+        <label>Vec2D</label>
+        <link refid="structVec2D"/>
+        <childnode refid="83" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment01Data/Vec2D.h" line="19" column="1" bodyfile="Assignment01Data/Vec2D.h" bodystart="18" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structVec2D_1aa3e3abb842bff81c10e8539c1689d578" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>Vec2D</name></member>
+      <member refid="structVec2D_1a7b7e1d9c94888dabaed54e798cd3ac45" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>Vec2D</name></member>
+      <member refid="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>x</name></member>
+      <member refid="structVec2D_1ace79aa38b9f696905862d607f338b845" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+digraph "Item::getDurability"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Item::getDurability",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Dweller::assignOutfit",height=0.2,width=0.4,color="black",URL="$classDweller.html#aac585b73527e14417f81b52b06282abd",tooltip="Assigns an Outfit to a Dweller. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Dweller::assignWeapon",height=0.2,width=0.4,color="black",URL="$classDweller.html#ada9dea393dfde4052cfff6a43acc37bb",tooltip="Assigns Weapon to Dweller. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Dweller::getAttackDmg",height=0.2,width=0.4,color="black",URL="$classDweller.html#a7bb025bd8237c76efc510c603334906f",tooltip="Returns 1 or Weapon&#39;s damaged if assigned to Dweller. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Dweller::getSPECIAL",height=0.2,width=0.4,color="black",URL="$classDweller.html#aee5683dcdaa052daac072cfdeb56df2f",tooltip="Returns SPECIAL_ or newSpecial depending if Outfit is assigned to Dweller. "];
+}

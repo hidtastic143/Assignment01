@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="Item_8cpp" kind="file" language="C++">
+    <compoundname>Item.cpp</compoundname>
+    <includes refid="Item_8h" local="yes">Item.h</includes>
+    <incdepgraph>
+      <node id="122">
+        <label>GameObject.h</label>
+        <link refid="GameObject_8h"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>string</label>
+      </node>
+      <node id="121">
+        <label>Item.h</label>
+        <link refid="Item_8h"/>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>Assignment01Data/Item.cpp</label>
+        <link refid="Item.cpp"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Item_8h" kindref="compound">Item.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">/*********************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classItem_1a4bfd4b7d49567a62c649dd8e92f23ca1" refkind="member"><highlight class="normal"><ref refid="classItem_1a4bfd4b7d49567a62c649dd8e92f23ca1" kindref="member">Item::Item</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>durability)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">:<ref refid="classGameObject" kindref="compound">GameObject</ref>(name),<sp/>durability_(durability)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************/</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">/*********************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" refkind="member"><highlight class="normal"><ref refid="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" kindref="member">Item::~Item</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************/</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">/*********************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">Item::getDurability</ref>()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classItem_1aa565c4091f6ac0634d762fb250128cee" kindref="member">durability_</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Assignment01Data/Item.cpp"/>
+  </compounddef>
+</doxygen>
