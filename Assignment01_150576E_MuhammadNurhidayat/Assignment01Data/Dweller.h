@@ -1,3 +1,12 @@
+/*********************************************************************************************/
+/*!
+\file	Dweller.h
+\author Muhammad Nurhidayat Bin Suderman
+\par	150576E@mymail.nyp.edu.sg
+\brief
+Dweller header file is the main object to the game that can be assigned with items
+*/
+/*********************************************************************************************/
 #ifndef DWELLERS_H
 #define DWELLERS_H
 
@@ -5,7 +14,12 @@
 #include "Outfit.h"
 #include "Weapon.h"
 #include "Vec2D.h"
-
+/*********************************************************************************************/
+/*!
+Class Dweller:
+\brief Dweller, an inheritance to GameObject. It will initialise all it's private members with its constructor
+*/
+/*********************************************************************************************/
 class Dweller : public GameObject
 {
 private:
@@ -39,5 +53,4 @@ public:
 	Weapon* assignWeapon(Weapon*);
 	bool isDead();
 };
-
 #endif
