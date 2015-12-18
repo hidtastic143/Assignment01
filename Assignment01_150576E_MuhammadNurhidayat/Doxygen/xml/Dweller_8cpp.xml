@@ -247,17 +247,16 @@
 <codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>;</highlight></codeline>
 <codeline lineno="360"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
-<codeline lineno="363"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>this<sp/>function<sp/>checks<sp/>if<sp/>Dweller<sp/>is<sp/>Alive<sp/>or<sp/>Dead</highlight></codeline>
-<codeline lineno="364"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="365" refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" kindref="member">Dweller::isDead</ref>()</highlight></codeline>
-<codeline lineno="366"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>&lt;=<sp/>0)</highlight></codeline>
-<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
-<codeline lineno="369"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="372"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************/</highlight></codeline>
+<codeline lineno="373"><highlight class="comment">/*********************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" kindref="member">Dweller::isDead</ref>()</highlight></codeline>
+<codeline lineno="375"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="Assignment01Data/Dweller.cpp"/>
   </compounddef>

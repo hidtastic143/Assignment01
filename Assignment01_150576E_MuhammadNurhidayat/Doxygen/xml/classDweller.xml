@@ -47,7 +47,7 @@
         </inbodydescription>
         <location file="Assignment01Data/Dweller.h" line="28" column="1" bodyfile="Assignment01Data/Dweller.h" bodystart="28" bodyend="-1"/>
         <referencedby refid="classDweller_1af4683a57d847666230c652174721da72" compoundref="Dweller_8cpp" startline="100" endline="103">getCurrentHealth</referencedby>
-        <referencedby refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" compoundref="Dweller_8cpp" startline="365" endline="372">isDead</referencedby>
+        <referencedby refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" compoundref="Dweller_8cpp" startline="374" endline="381">isDead</referencedby>
         <referencedby refid="classDweller_1abf9520f7fa4de6e1bc15343a2c9a2566" compoundref="Dweller_8cpp" startline="190" endline="193">receiveHealthDamage</referencedby>
         <referencedby refid="classDweller_1a3546d82f9e018774b3e2ed0cf20a75e7" compoundref="Dweller_8cpp" startline="207" endline="210">receiveRadDamage</referencedby>
         <referencedby refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" compoundref="Dweller_8cpp" startline="278" endline="287">useStimpak</referencedby>
@@ -558,12 +558,19 @@
         <argsstring>()</argsstring>
         <name>isDead</name>
         <briefdescription>
-        </briefdescription>
+<para>Checks if <ref refid="classDweller" kindref="compound">Dweller</ref> is dead. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01Data/Dweller.h" line="54" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="365" bodyend="372"/>
+        <location file="Assignment01Data/Dweller.h" line="54" column="1" bodyfile="Assignment01Data/Dweller.cpp" bodystart="374" bodyend="381"/>
         <references refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" compoundref="Dweller_8h" startline="28">health_</references>
       </memberdef>
       </sectiondef>

@@ -359,9 +359,18 @@ Weapon* Dweller::assignWeapon(Weapon* weapon)
 	return weapon_;
 }
 
-/*
-*	this function checks if Dweller is Alive or Dead
+/*********************************************************************************************/
+/*!
+\brief
+Checks if Dweller is dead
+\param
+
+\exception
+
+\return
+true or false
 */
+/*********************************************************************************************/
 bool Dweller::isDead()
 {
 	if (health_ <= 0)
